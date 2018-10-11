@@ -1,0 +1,87 @@
+ul {
+	list-style-type: none; /*remove the bullets before each element of the (UL)Unordered List*/
+	margin: 0; /*all these three properties are set so that elements will not overlap*/
+	padding: 0;
+	overflow: hidden;
+	background-color: #FFF8DC; /*Corn Silk color*/
+}
+
+li {
+	float: left;
+}
+
+li a {
+	color: black;
+	font-weight: bold;
+	display: block; /* to thicken the display of each List attribute*/
+	padding: 14px 16px;
+	text-decoration: none; /*removes the underline from the hyperlink*/
+}
+
+li a:hover {
+	background-color: #FFEBCD; /*Blanch Almond color*/
+}
+
+.active {
+	background-color: #FFDAB9; /*Peach Puff color*/
+}
+
+* {font-family: Calibri;} /*Set the font for all texts*/
+
+
+.homePageContainer { /*elements about the home page South America */
+	text-align: center;
+	width:50%;
+  	margin:0px auto;
+}
+
+
+
+.capital /*elements about the country's capital */
+{
+	float: left; /*aligned left*/
+	width:35%; /*occupy left side 40% (36% + 2% left + 2% right padding) of webpage*/
+	height: 50%; /*just set this to 50%*/
+}
+
+.alamat
+{
+	float: right; /*aligned right*/
+	width:56%; /*occupy right side 60% (56% + 2% left + 2% right padding) of webpage*/
+	height: 50%;
+	border-left: solid; /* for the vertical line*/
+	border-width: 1px;
+}
+
+
+.person {
+	width:96%; /*consume entire 100% (96% + 2% left + 2% right padding) bottom width*/
+	height: 30%;
+	border-top: solid; /* for the horizontal line*/
+	border-width: 1px;
+}
+
+.personPicture {
+	padding-top: 10px;
+	float: left; /*aligned left*/
+	height: 30%;
+	width:20%;
+	padding-right: 30px;
+}
+
+.personText {
+	width:100%;
+}
+
+.capital, .alamat, .person {
+	overflow: hidden;
+	padding-top: 0%;
+	padding-right: 2%;
+	padding-bottom: 2%;
+	padding-left: 2%;
+}
+
+h1 {font-size: 30px;}
+h2 {font-size: 20px;}
+
+p.homePageText{font-size: 20px;}
